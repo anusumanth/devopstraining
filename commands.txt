@@ -1,0 +1,43 @@
+    1  echo "sumanth"
+    2  pwd
+    3  git
+    4  git clone https://github.com/anusumanth/devopstraining.git
+    5  cd devopstraining
+    6  ls -la
+    7  git status
+    8  git add *
+    9  git status
+   10  git commit -m "Added index.html file"
+   11  git status
+   12  git push
+   13  cls
+   14  clear
+   15  git branch -x
+   16  git branch -v
+   17  git branch test
+   18  git branch -v
+   19  git checkout test
+   20  git add *
+   21  git commit -m "Branching changes"
+   22  git branch -v
+   23  git checkout master
+   24  git merge test
+   25  git branch -v
+   26  git checkout test
+   27  git add *
+   28  git commit -m "Updated for testing merge"
+   29  git checkout master
+   30  git add *
+   31  git commit -m "For master branch"
+   32  git merge test
+   33  git add *
+   34  git commit -m "COnflict resolved"
+   35  git merge -v
+   36  git status
+   37  git branch -v
+   38  git merge
+   39  git remote -v
+   40  clear
+   41  history
+   42  \
+   43  history > commands.txt
